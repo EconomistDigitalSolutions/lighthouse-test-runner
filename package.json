@@ -1,0 +1,53 @@
+{
+  "name": "lighthouse-test-runner",
+  "version": "1.0.0",
+  "description": "Google Lighthouse test runner command line tool",
+  "main": "./lib/lighthouse-test-runner.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "bin": {
+    "lighthouse-test-runner": "./lib/index-cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/EconomistDigitalSolutions/lighthouse-test-runner.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "cross-env BABEL_ENV=production babel src --out-dir lib"
+  },
+  "keywords": [
+    "acceptance",
+    "tests",
+    "web",
+    "tools",
+    "command",
+    "line"
+  ],
+  "dependencies": {
+    "chrome-launcher": "^0.10.2",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-polyfill": "^6.26.0",
+    "lighthouse": "^3.0.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.1",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-minify": "^0.3.0",
+    "cross-env": "^5.2.0",
+    "eslint": "^4.19.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.4.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-config-prettier": "^2.9.0",
+    "jest": "^22.4.3",
+    "prettier": "^1.12.1"
+  },
+  "author": "Przemek Wajerowicz & Sergey Maximov",
+  "license": "ISC"
+}
