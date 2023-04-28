@@ -47,7 +47,7 @@
     "eslint-plugin-react": "^7.4.0",
     "jest": "^25.0.0",
     "prettier": "^1.12.1",
-    "snyk": "^1.239.3"
+    "snyk": "^1.1064.0"
   },
   "author": "Przemek Wajerowicz & Sergey Maximov",
   "license": "ISC"
